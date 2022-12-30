@@ -6,17 +6,10 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
-
 #logo_title {
-    position: relative;
-    
+    width: 100vw;
 }
-#main {
-    max-width: 500px;
-}
-#main_p {
 
-}
 #logoPic {
     padding-top: 28px ;
     width: 317px;
@@ -29,7 +22,7 @@
     margin-top: 20px;
     padding-bottom: 10px;
     padding-top: 30px;
-    width: 100%;
+    width: 100vw;
     overflow: hidden;
     z-index: 1;
     position: sticky;
@@ -62,18 +55,6 @@
     color: rgb(232, 180, 48);
     text-decoration: none;
     transition: none;
-}
-#images {
-    height: 500px;
-    width: 90vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex ;
-    justify-content: space-between;
-}
-button {
-    border: none;
 }
 #specsContainer {
     margin-top: 100px;
