@@ -25,15 +25,26 @@
     transform: translateX(-50%);
 }
 #menu {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    height: 80px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+}
+#menuSection {
+    max-width: 1000px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 50vw;
     display: flex;
     justify-content: space-evenly;
 }
+    
 .menuText {
     text-decoration: none;
     border: none;
@@ -69,7 +80,7 @@ button {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 1300px;
+    max-width: 1300px;
     justify-content: space-evenly;
     display: flex;
 }
@@ -101,7 +112,7 @@ h3 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    width: 1200px;
+    max-width: 1200px;
     margin-top: 100px;
     justify-content: space-evenly;
     display: flex;
@@ -281,4 +292,16 @@ hr {
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  @media
+  (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
   }
