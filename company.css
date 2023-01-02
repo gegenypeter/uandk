@@ -23,7 +23,7 @@
     margin-top: 20px;
     padding-bottom: 10px;
     padding-top: 30px;
-    width: 100vw;
+    width: 100%;
     overflow: hidden;
     z-index: 1;
     position: sticky;
@@ -57,7 +57,169 @@
     text-decoration: none;
     transition: none;
 }
-#main {
-    max-width: 100vw;
+.bgImg {
+    width: 100vw;
+    overflow: hidden;
+    height: 100%;
+}
+@media screen and (max-width: 1800px) {
+    .bgImg {
+        width: auto;
+    }
+}
+
+.main {
+    position: relative;
+    width: 100vw;
+    background-image: url("./img/company.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main div {
+    background: transparent;
+}
+.main h1{
+    background: transparent;
+}
+.main p {
+    background: transparent;
+}
+.main h4 {
+    background: transparent;
+}
+
+.mainTextContainer {
+    padding-top: 80px;
+    margin: auto;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 100px;
+}
+.mainTitle {
+    margin: auto;
+    max-width: 1300px;
+}
+
+.mainTitle h1 {
+    padding-top: 100px;
+    margin: auto;
+    color: rgb(232, 180, 48);
+    max-width: 1300px;
+}
+.mainTextContainer div {
+    max-width: 600px;
     height: auto;
+}
+#wide {
+    max-width: 1300px;
+}
+.coil {
+    padding-top: 65px;
+}
+.coil p {
+    margin-top: 5px;
+}
+.coil h4 {
+    margin-bottom: 5px;
+}
+.tech p{
+    margin-top: 5px;
+}
+.tech h4 {
+    margin-bottom: 5px;
+}
+hr {
+    border: none;
+    border-top: 1px solid rgba(188, 188, 188, 0.4);
+}
+#footerContainer {
+    max-width: 1300px;
+    position: relative;
+    left: 50%;
+    display: flex;
+    padding-left: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 200, 72);
+    height: 150px;
+}
+#contact a {
+    color: rgb(187, 187, 187);
+    font-size: 13px;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+#contact p {
+    color: rgb(187, 187, 187);
+    font-size: 13px;
+    margin: 0;
+}
+#mail {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#company {
+    padding-top: 5px;
+}
+#smallLogo {
+    width: 200px;
+    align-self: flex-end;
+
+}
+#smallImgContainer {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#brochure {
+
+    font-size: 13px;
+    margin-top: 50px;
+    text-align: right;
+}
+#downloadIcon {
+    vertical-align: middle;
+    color: rgb(244, 200, 72);
+}
+
+#contact h5 {
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1300px) {
+    .mainTitle h1 {
+        max-width: 600px;
+    }
+    #wide {
+        max-width: 600px;
+    }
+    .coil {
+        padding-top: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .mainTextContainer {
+        max-width: 600px;
+        
+    }
+    .mainTitle {
+        margin: auto;
+        max-width: 600px;
+    }
+    
 }
