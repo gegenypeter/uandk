@@ -201,12 +201,18 @@ hr {
 @media screen and (max-width: 1300px) {
     .mainTitle h1 {
         max-width: 600px;
+        padding-left: 20px;
+        padding-right: 35px;
     }
     #wide {
         max-width: 600px;
     }
     .coil {
         padding-top: 0;
+    }
+    .mainTextContainer {
+        padding-right: 35px;
+        padding-left: 20px;
     }
 
 }

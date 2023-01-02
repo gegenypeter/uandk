@@ -60,10 +60,10 @@ body {
     transition: none;
 }
 #specsContainer {
-    margin-top: 100px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    margin: auto;
     max-width: 1300px;
     justify-content: space-evenly;
     display: flex;
@@ -189,11 +189,25 @@ hr {
     vertical-align: middle;
     color: rgb(244, 200, 72);
 }
+@media screen and (max-width: 800px) {
+    #popularCategories {
+        flex-direction: column;
+        max-width: 310px;
+    }
+   #specsContainer {
+    flex-direction: column;
+    max-width: 310px;
+   }
+   #logoPic {
+    max-width: 200px;
+   }
+}
 
 
 /* Slideshow container */
 .slideshow-container {
     max-width: 100vw;
+    overflow: hidden;
     position: relative;
     margin: auto;
   }
