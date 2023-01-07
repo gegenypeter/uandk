@@ -23,14 +23,14 @@ body {
 #menu {
     height: 80px;
     margin-top: 20px;
+    margin: auto;
     padding-bottom: 10px;
     padding-top: 30px;
-    width: 100vw;
+    max-width: 1300px;
+    position: sticky;
     overflow: hidden;
     z-index: 1;
-    position: sticky;
     top: 0;
-    border-bottom: 1px solid rgba(188, 188, 188, 0.4);
 }
 #menuSection {
     max-width: 1000px;
@@ -38,11 +38,22 @@ body {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+#menuContainer {
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.4);
 }
     
 .menuText {
     text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
     border: none;
     font-size: 16px;
     font-weight: 300;
@@ -135,7 +146,21 @@ hr {
     font-size: 35px;
 }
 #bigger {
+    transition: 0.2s;
     font-size: 30px;
+    width: 250px;
+}
+#bigger:hover {
+    transition: 0.2s;
+    color: #fff;
+}
+#prod {
+    transition: 0.2s;
+    width: 100px;
+}
+#prod:hover {
+    transition: 0.2s;
+    color: #fff;
 }
 #titleContainer {
     height: 300px;
@@ -196,7 +221,7 @@ hr {
     height: 30px;
 }
 #technicalContainer {
-    width: 1300px;
+    max-width: 1300px;
     margin: auto;
     margin-bottom: 100px;
 }
@@ -216,7 +241,7 @@ hr {
 #techFlex {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 50px;
+    row-gap: 5px;
     column-gap: 100px;
 }
 .eachTech {
@@ -224,7 +249,7 @@ hr {
     height: 220px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 .techRow {
     color: #888;
@@ -236,7 +261,7 @@ hr {
     display: flex;
 }
 .smallImg {
-    width: 180px;
+    max-width: 180px;
     margin: auto;
     margin-top: 0;
 }
@@ -245,8 +270,70 @@ hr {
 }
 .techDescContainer2 {
     padding-top: 20px;
+    text-align: right;
 }
 .techRow1 {
     margin: 0;
     color: #fff;
+}
+#h5 {
+    text-align: right;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1300px) {
+    #techFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+    #techFlex {
+        max-width: 600px;
+        margin: auto;
+    }
+    .techTitle {
+        max-width: 600px;
+        margin: auto;
+    }
+    #technicalContainer {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #mainContainer {
+        max-width: 80vw;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #menu {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    #descContainer {
+        width: 100%;
+    }
+    #description {
+        width: 100%;
+    }
+    .eachFlex {
+        width: 80%;
+    }
+    #h5 {
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 700px) {
+    #technicalContainer {
+
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #menuSection {
+        flex-wrap: wrap;
+    }
+    #menu {
+        height: 110px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 }
