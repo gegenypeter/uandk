@@ -1,0 +1,370 @@
+body {
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+    background-color: black;
+    color:#b4ae9d;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+#logo_title {
+    width: 100vw;
+}
+
+#logoPic {
+    padding-top: 28px ;
+    width: 317px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#menu {
+    height: 80px;
+    margin-top: 20px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    max-width: 1300px;
+    position: sticky;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+}
+#menuSection {
+    max-width: 1000px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+#menuContainer {
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+}
+    
+.menuText {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+}
+#menu a {
+    transition: 0.3s;
+}
+#menu a:hover {
+    color: white;
+}
+.menuText:focus {
+    color: rgb(232, 180, 48);
+    text-decoration: none;
+    transition: none;
+}
+hr {
+    border: none;
+    border-top: 1px solid rgba(188, 188, 188, 0.4);
+}
+#footerContainer {
+    max-width: 1300px;
+    position: relative;
+    left: 50%;
+    display: flex;
+    padding-left: 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateX(-50%);
+    margin-top: 30px;
+    height: 180px;
+}
+#contact {
+    display: flex;
+    flex-direction: column;
+    color: rgb(244, 200, 72);
+    height: 150px;
+}
+#contact a {
+    color: rgb(187, 187, 187);
+    font-size: 13px;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+#contact p {
+    color: rgb(187, 187, 187);
+    font-size: 13px;
+    margin: 0;
+}
+#mail {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+#company {
+    padding-top: 5px;
+}
+#smallLogo {
+    width: 200px;
+    align-self: flex-end;
+
+}
+#smallImgContainer {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+}
+#brochure {
+
+    font-size: 13px;
+    margin-top: 50px;
+    text-align: right;
+}
+#downloadIcon {
+    vertical-align: middle;
+    color: rgb(244, 200, 72);
+}
+
+#contact h5 {
+    margin-bottom: 5px;
+}
+#descContainer {
+    max-width: 1300px;
+}
+#descContainer2 {
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    margin: auto;
+}
+#secondDesc p{
+    color: #fff;
+    max-width: 600px;
+}
+#secondDesc {
+    margin-top: 50px;
+}
+#flex {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    font-size: 35px;
+}
+#bigger {
+    transition: 0.2s;
+    font-size: 30px;
+    width: 250px;
+}
+#bigger:hover {
+    transition: 0.2s;
+    color: #fff;
+}
+#prod {
+    transition: 0.2s;
+    width: 100px;
+}
+#prod:hover {
+    transition: 0.2s;
+    color: #fff;
+}
+#titleContainer {
+    height: 300px;
+    padding-top: 30px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#home {
+    margin-top: 30px;
+    margin-bottom: 0;
+    height: 80px;
+    font-size: 80px;
+    color: #fff;
+}
+#series {
+    margin: 0;
+    font-size: 80px;
+    height: 85px;
+    background: transparent;
+    color: rgb(244, 200, 72);
+}
+#description {
+    margin-top: 50px;
+}
+
+#description p {
+    color: #fff;
+}
+#mainContainer {
+    width: 1300px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#imgContainer img {
+    max-height: 570px;
+}
+#imgContainer {
+    max-width: 570px;
+    display: flex;
+    justify-content: flex-end;
+}
+.manual {
+    font-size: 13px;
+    text-align: center;
+}
+#dlSymbol {
+    vertical-align: middle;
+    color: rgb(244, 200, 72);
+}
+#manualContainer {
+    margin-top: 50px;
+    height: 30px;
+}
+#technicalContainer {
+    max-width: 1300px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.techTitle {
+    display: flex;
+    column-gap: 5px;
+}
+.eachTech {
+    width: 600px;
+}
+.white {
+    color: #fff;
+}
+.yellow {
+    color: rgb(244, 200, 72)
+}
+#techFlex {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 100px;
+}
+.eachTech {
+    width: 600px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.techRow {
+    color: #888;
+    margin: 0;
+    font-size: 15px;
+}
+.smallImgContainer {
+    width: 250px;
+    display: flex;
+}
+.smallImg {
+    max-width: 180px;
+    margin: auto;
+    margin-top: 0;
+}
+.techDescContainer1 {
+    padding-top: 20px;
+}
+.techDescContainer2 {
+    padding-top: 20px;
+    text-align: right;
+}
+.techRow1 {
+    margin: 0;
+    color: #fff;
+}
+#h5 {
+    text-align: right;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1300px) {
+    #techFlex {
+        flex-direction: column;
+        align-items: center;
+    }
+    #techFlex {
+        max-width: 600px;
+        margin: auto;
+    }
+    .techTitle {
+        max-width: 600px;
+        margin: auto;
+    }
+    #technicalContainer {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #mainContainer {
+        max-width: 80vw;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #menu {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    #descContainer {
+        width: 100%;
+    }
+    #description {
+        width: 100%;
+    }
+    .eachFlex {
+        width: 80%;
+    }
+    #h5 {
+        text-align: center;
+    }
+    #descContainer2 {
+        max-width: 90vw;
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-direction: column;
+    }
+    #imgContainer {
+        max-width: 80vw;
+    }
+    #imgContainer img {
+        height: auto;
+        max-width: 570px;
+    }
+    #secondDesc p {
+        max-width: 80vw;
+    }
+
+    
+
+}
+@media screen and (max-width: 700px) {
+    #technicalContainer {
+
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #menuSection {
+        flex-wrap: wrap;
+    }
+    #menu {
+        height: 110px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
