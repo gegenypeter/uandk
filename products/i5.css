@@ -141,7 +141,6 @@ hr {
 }
 #flex {
     display: flex;
-    flex-direction: column;
     height: 100px;
     font-size: 35px;
 }
@@ -173,21 +172,16 @@ hr {
 
 
 #home {
-    margin-top: 30px;
-    margin-bottom: 0;
-    height: 80px;
     font-size: 80px;
-    color: #fff;
+    padding-right: 15px;
 }
 #series {
-    margin: 0;
     font-size: 80px;
-    height: 85px;
-    background: transparent;
     color: rgb(244, 200, 72);
 }
 #description {
     margin-top: 50px;
+
 }
 
 #description p {
@@ -197,11 +191,11 @@ hr {
     width: 1300px;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 #imgContainer img {
-    padding-top: 70px;
-    height: 900px;
+    padding-top: 120px;
+    height: 750px;
 }
 #imgContainer {
     width: 550px;
@@ -246,7 +240,7 @@ hr {
 }
 .eachTech {
     width: 600px;
-    height: 220px;
+    height: 280px;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -261,9 +255,10 @@ hr {
     display: flex;
 }
 .smallImg {
-    max-width: 180px;
+    max-width: 250px;
     margin: auto;
     margin-top: 0;
+
 }
 .techDescContainer1 {
     padding-top: 20px;
@@ -277,7 +272,7 @@ hr {
     color: #fff;
 }
 #h5 {
-    text-align: right;
+    text-align: left;
     font-size: 13px;
 }
 
@@ -318,6 +313,10 @@ hr {
     }
     #h5 {
         text-align: center;
+    }
+    #imgContainer {
+        justify-content: center;
+        margin: auto;
     }
 
 }
