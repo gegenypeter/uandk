@@ -231,6 +231,12 @@ hr {
     transition: 0.3s;
 
 }
+.model1:hover {
+    color: #fff;
+} 
+.model2:hover {
+    color: #fff;
+} 
 .model2 {
     padding-top: 130px;
     font-size: 30px;
