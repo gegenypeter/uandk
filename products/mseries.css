@@ -244,7 +244,7 @@ hr {
     flex-wrap: wrap
 }
 #imgContainer img {
-    width: 550px;
+    max-width: 550px;
 }
 #imgContainer {
     width: 550px;
@@ -330,8 +330,8 @@ hr {
         align-items: center;
     }
     #techFlex {
-        max-width: 600px;
         margin: auto;
+        max-width: 800px;
     }
     .techTitle {
         max-width: 600px;
@@ -354,7 +354,10 @@ hr {
         width: 100%;
     }
     #description {
-        width: 100%;
+        width: 85vw
+    }
+    #description1 {
+        width: 85vw;
     }
     .eachFlex {
         width: 80%;
@@ -362,18 +365,25 @@ hr {
     #h5 {
         text-align: center;
     }
-    #imgContainer {
+    #imgContainer img{
         justify-content: center;
         margin: auto;
+        max-width: 550px;
     }
-
-}
-@media screen and (max-width: 700px) {
-    #technicalContainer {
-
+    #imgContainer{
+        justify-content: center;
+        margin: auto;
+        max-width: 550px;
+    }
+    #mainDescContainer {
+        margin: auto;
+        max-width: 90vw;
+        flex-direction: column;
+    }
+    .eachtech {
+        max-width: 600px;
     }
 }
-
 @media screen and (max-width: 670px) {
     #menuSection {
         flex-wrap: wrap;
