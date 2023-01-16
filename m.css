@@ -272,12 +272,6 @@ hr {
     color: rgb(244, 200, 72);
 }
 @media screen and (max-width: 1300px) {
-    #productContainer {
-        width: 800px;
-        height: auto;
-        flex-direction: column;
-        align-items: center;  
-    }
     .homeContainer {
         flex-direction: column;
         align-items: center;
@@ -288,13 +282,31 @@ hr {
         align-items: center;
         height: auto;
     }
+    #productContainer {
+        max-width: 80vw;
+        padding-bottom: 50px;
+        border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+    }
+    #productContainer1 {
+        padding-top: 0;
+        max-width: 80vw;
+    }
     .a1{
-        padding-top: 200px;
-        flex-direction: row;
+        padding-top: 300px;
         column-gap: 30px;
     }
     #wrapper1 {
         height: 300px;
+        margin: auto;
+    }
+    #wrapper2 {
+        height: 300px;
+    }
+    #wrapper3 {
+        margin: auto;
+    }
+    #wrapper4 {
+        height: 250px;
     }
 
 }
