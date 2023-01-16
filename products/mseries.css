@@ -330,12 +330,11 @@ hr {
         align-items: center;
     }
     #techFlex {
-        margin: auto;
+
         max-width: 800px;
     }
     .techTitle {
-        max-width: 600px;
-        margin: auto;
+        max-width: 800px;
     }
     #technicalContainer {
         margin-left: 50px;
