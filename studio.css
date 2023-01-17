@@ -130,12 +130,18 @@ hr {
     padding-bottom: 50px;
     max-width: 1300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: auto;
     flex-wrap: wrap;
 }
 .homeContainer {
     height: 350px;
+}
+#h11 {
+    margin-left: 30px;
+}
+#h12 {
+    margin-right: 20px;
 }
 #wrapper1 {
     display: flex;
@@ -143,7 +149,7 @@ hr {
     justify-content: flex-end;
     width: 300px;
     height: 300px;
-    background-image: url("./img/product-customseries-sseries.jpg");
+    background-image: url("./img/t4-copia.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -154,7 +160,7 @@ hr {
     justify-content: flex-end;
     width: 300px;
     height: 300px;
-    background-image: url("./img/M6-website.jpg");
+    background-image: url("./img/t6.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -165,8 +171,8 @@ hr {
     justify-content: flex-end;
     width: 300px;
     height: 300px;
-    background-image: url("./img/M8-website-1.jpg");
-    background-position: center;
+    background-image: url("./img/T10-copia.jpg");
+    background-position: left;
     background-repeat: no-repeat;
     background-size: contain;
 }
