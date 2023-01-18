@@ -234,9 +234,6 @@ hr {
     display: flex;
     column-gap: 5px;
 }
-.eachTech {
-    width: 600px;
-}
 .white {
     color: #fff;
 }
@@ -279,7 +276,7 @@ hr {
     margin-top: 0;
 }
 .smallImg2 {
-    max-width: 180px;
+    max-width: 160px;
     max-height: 250px;
     margin: auto;
 
