@@ -270,6 +270,13 @@ hr {
     justify-content: space-between;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
+.eachTech2 {
+    width: 600px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
 .techRow {
     color: #888;
     margin: 0;
@@ -280,6 +287,11 @@ hr {
     display: flex;
 }
 .smallImg {
+    max-width: 220px;
+    margin: auto;
+
+}
+.smallImg2 {
     max-width: 220px;
     margin: auto;
 
