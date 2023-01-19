@@ -239,6 +239,11 @@ hr {
         font-size: 20px;
         border-bottom: 1px solid rgba(188, 188, 188, 0.4);
     }
+    #titleContainer {
+        max-width: 400px;
+        margin: auto;
+        margin-left: 50px;
+    }
 
 }
 #prod {
