@@ -201,47 +201,60 @@ hr {
     color: rgb(244, 200, 72);
 }
 @media screen and (max-width: 1300px) {
-    #home {
-        font-size: 40px;
-    }
-    #series {
-        font-size: 40px;
-    }
     #productContainer {
         max-width: 800px;
         height: auto;
         flex-direction: column;
+        row-gap: 50px;
         align-items: center;  
     }
     .homeContainer {
         max-width: 800px;
-        min-width: 300px;
-        min-height: 400px;
-        max-height: 600px;
+        height: 400px;
     }
     #wrapper1 {
-        background-size: cover;
-        margin: auto;
-        max-width: 300px;
-    }
-    #wrapper2 {
-        background-size: cover;
-        margin: auto;
-        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 500px;
+        background-image: url("./img/wqa.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 20px;
 
     }
-    #wrapper3 {
-        background-size: cover;
-        margin: auto;
-        max-width: 300px;
+    #wrapper2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 500px;
+        background-image: url("./img/3-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 20px;
+        margin-top: 50px;
     }
+    #wrapper3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 500px;
+        margin-bottom: 20px;
+        background-image: url("./img/2-copia.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 50px;
+}
     .homeContainer h1 {
-        font-size: 20px;
+        font-size: 30px;
+        height: auto;
         border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+
     }
     #titleContainer {
-        max-width: 400px;
-        margin: auto;
         margin-left: 50px;
     }
 
