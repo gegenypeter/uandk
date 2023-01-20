@@ -186,7 +186,7 @@ hr {
     justify-content: flex-end;
     width: 350px;
     margin-right: 100px;
-    height: 250px;
+    height: 200px;
     background-image: url("./img/1111.jpg");
     background-position: bottom;
     background-color: transparent;
@@ -199,8 +199,8 @@ hr {
     flex-direction: column;
     justify-content: flex-end;
     width: 350px;
-    height: 250px;
-    background-image: url("./img/3211231232.jpg");
+    height: 200px;
+    background-image: url("./img/cut.png");
     background-color: transparent;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -296,14 +296,19 @@ hr {
     #productContainer1 {
         padding-top: 0;
         max-width: 80vw;
+        height: 450px;
+        margin-bottom: 100px;
+        border-bottom: 1px solid rgba(188, 188, 188, 0.4);
     }
     .a1{
         padding-top: 300px;
         column-gap: 30px;
     }
     #wrapper1 {
-        height: 300px;
+        height: 150px;
         margin: auto;
+        margin-bottom: 0;
+        margin-top: 80px;
     }
     #wrapper2 {
         height: 300px;
@@ -311,9 +316,21 @@ hr {
     #wrapper3 {
         margin: auto;
     }
-    #wrapper4 {
-        height: 250px;
+    #wrapper1 {
+        background-image: url("./img/cutt.png");
+
     }
+    #titleContainer {
+        margin-left: 50px;
+        height: 150px;
+    }
+    .model1 {
+        padding-top: 150px;
+    }
+    .model2 {
+        padding-top: 50px;
+    }
+
 
 }
 #prod {
