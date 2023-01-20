@@ -215,7 +215,7 @@ hr {
     margin-top: 50px;
 }
 #mainDescContainer {
-    max-width: 1300px;
+    width: 1300px;
     display: flex;
     margin-top: 50px;
     column-gap: 100px;
@@ -244,10 +244,10 @@ hr {
     flex-wrap: wrap
 }
 #imgContainer img {
-    width: 550px;
+    max-width: 550px;
 }
 #imgContainer {
-    width: 550px;
+    max-width: 550px;
     display: flex;
     justify-content: flex-end;
 }
@@ -328,30 +328,31 @@ hr {
     #techFlex {
         flex-direction: column;
         align-items: center;
-    }
-    #techFlex {
-        max-width: 600px;
-        margin: auto;
+        max-width: 800px;
     }
     .techTitle {
         max-width: 600px;
-        margin: auto;
+        margin: 0;
+    }
+    #descContainer {
+        max-width: 80vw;
     }
     #technicalContainer {
         margin-left: 50px;
         margin-right: 50px;
     }
+    #mainDescContainer {
+        max-width: 80vw;
+        flex-direction: column;
+    }
     #mainContainer {
         max-width: 80vw;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin: auto;
+        margin-top: 0;
     }
     #menu {
         margin-right: 50px;
         margin-left: 50px;
-    }
-    #descContainer {
-        width: 100%;
     }
     #description {
         width: 100%;
@@ -362,9 +363,29 @@ hr {
     #h5 {
         text-align: center;
     }
-    #imgContainer {
-        justify-content: center;
+    .eachTech {
+        width: 90%;
+        min-height: 300px;
+        height: auto;
+    }
+    .smallImg {
+        max-width: 220px;
         margin: auto;
+        margin-left: 0;
+        
+    }
+    #imgContainer {
+        max-width: 500px;
+        justify-content: flex-start;
+    }
+    #imgContainer img {
+        max-width: 500px;
+    }
+    #flexColumn1 {
+        max-width: 80vw;
+    }
+    #flexColumn2 {
+        max-width: 80vw;
     }
 
 }
