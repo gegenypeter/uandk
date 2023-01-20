@@ -287,7 +287,7 @@ hr {
     column-gap: 100px;
 }
 .eachTech {
-    width: 800px;
+    max-width: 800px;
     height: 310px;
     display: flex;
     justify-content: space-between;
@@ -356,6 +356,7 @@ hr {
         width: 85vw
     }
     #description1 {
+        padding-top: 0;
         width: 85vw;
     }
     .eachFlex {
@@ -379,8 +380,16 @@ hr {
         max-width: 90vw;
         flex-direction: column;
     }
-    .eachtech {
-        max-width: 600px;
+    .eachTech {
+        width: 90%;
+        min-height: 300px;
+        height: auto;
+    }
+    .smallImg {
+        max-width: 220px;
+        margin: auto;
+        margin-left: 0;
+        
     }
 }
 @media screen and (max-width: 670px) {
