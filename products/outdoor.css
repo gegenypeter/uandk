@@ -202,8 +202,8 @@ hr {
     flex-wrap: wrap
 }
 #imgContainer img {
-    padding-top: 100px;
-    height: 950px;
+    padding-top: 250px;
+    height: 800px;
 }
 #imgContainer {
     width: 550px;
@@ -316,6 +316,7 @@ hr {
     #technicalContainer {
         margin-left: 50px;
         margin-right: 50px;
+        padding-top: 10px;
     }
     #mainContainer {
         max-width: 80vw;
@@ -341,6 +342,10 @@ hr {
     #imgContainer {
         justify-content: center;
         margin: auto;
+    }
+    #imgContainer img {
+        padding-top: 0;
+        height: 600px;
     }
 
 }

@@ -345,6 +345,9 @@ hr {
         justify-content: center;
         margin: auto;
     }
+    #imgContainer img {
+        padding-top: 10px;
+    }
 
 }
 @media screen and (max-width: 700px) {
