@@ -173,7 +173,7 @@ hr {
     font-size: 35px;
 }
 #titleContainer {
-    height: 200px;
+    height: 300px;
     padding-top: 30px;
     width: 820px;
     margin: auto;
@@ -194,30 +194,45 @@ hr {
 }
 @media screen and (max-width: 1300px) {
     #productContainer {
-        width: 800px;
-        height: auto;
+        max-width: 800px;
         flex-direction: column;
         align-items: center;  
     }
     .homeContainer {
-        width: 800px;
-        height: 600px;
+        margin-top: 100px;
+        max-width: 800px;
+        height: 400px;
     }
     #wrapper1 {
-        width: 100%;
-        height: 500px;
-    }
-    #wrapper2 {
-        width: 100%;
-        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 500px;
+        background-image: url("../img/edr-e1583264176878.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 20px;
     }
     #wrapper3 {
-        width: 100%;
-        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: 500px;
+        background-image: url("../img/edr-2-e1583264414607.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 20px;
     }
     .homeContainer h1 {
-        font-size: 50px;
+        font-size: 30px;
+        height: auto;
         border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+    }
+    #titleContainer {
+        margin-left: 50px;
+        height: 220px;
     }
 
 }
