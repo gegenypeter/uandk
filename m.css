@@ -333,6 +333,90 @@ hr {
 
 
 }
+@media screen and (max-width: 700px) {
+    .homeContainer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        max-width: 90vw;
+    }
+    .homeContainer2 {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        margin-bottom: 0;
+        margin-top: 0;
+        max-width: 90vw;
+    }
+    #productContainer {
+        max-width: 80vw;
+        padding-bottom: 0;
+        border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+    }
+    #productContainer1 {
+        padding-top: 0;
+        max-width: 80vw;
+        height: auto;
+        margin-bottom: 100px;
+        border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+    }
+    .a1{
+        padding-top: 0;
+        column-gap: 30px;
+    }
+    #wrapper1 {
+        background-image: url("./img/cutt.png");
+        background-position: center;
+        height: 150px;
+        margin: auto;
+        width: 70vw;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #wrapper2 {
+        width: 70vw;
+        background-position: top;
+        height: auto;
+        max-height: 350px;
+        min-height: 250px;
+    }
+    #wrapper3 {
+        margin: auto;
+        width: 70vw;
+        background-position: top;
+        height: auto;
+        max-height: 350px;
+        min-height: 200px;
+    
+    }
+    #wrapper4 {
+        margin: auto;
+        width: 70vw;
+        background-position: top;
+        height: auto;
+        max-height: 350px;
+        min-height: 150px;
+    
+    }
+    #titleContainer {
+        margin-left: 20px;
+    }
+    #home {
+        font-size: 40px;
+    }
+    #series {
+        font-size: 40px;
+
+    }
+    .model1 {
+        padding-top: 50px;
+    }
+    .model2 {
+        padding-top: 50px;
+    }
+
+
+}
 #prod {
     transition: 0.2s;
 }
