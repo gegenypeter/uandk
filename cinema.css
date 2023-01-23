@@ -307,6 +307,77 @@ hr {
 
 
 }
+@media screen and (max-width: 700px) {
+    #productContainer {
+        max-width: 80%;
+        height: auto;
+        flex-direction: column;
+        row-gap: 50px;
+        align-items: center;  
+    }
+    .homeContainer {
+        width: 100%;
+        margin-top: 0;
+        height: 350px;
+    }
+    #wrapper1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: auto;
+        background-image: url("./img/product-customseries-sseries.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 0;
+
+    }
+    #wrapper2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: auto;
+        background-image: url("./img/M6-website.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    #wrapper3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        width: auto;
+        margin-bottom: 0;
+        background-image: url("./img/M8-website-1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-top: 0px;
+}
+    .homeContainer h1 {
+        font-size: 30px;
+        height: auto;
+        border-bottom: 1px solid rgba(188, 188, 188, 0.4);
+
+    }
+    #titleContainer {
+        margin-left: 20px;
+    }
+    #home {
+        font-size: 40px;
+    }
+    #series {
+        font-size: 40px;
+
+    }
+    .reference {
+        max-width: 80vw;
+    }
+
+}
+
 #prod {
     transition: 0.2s;
 }
