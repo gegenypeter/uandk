@@ -323,6 +323,8 @@ hr {
     #titleContainer {
         margin-left: 50px;
         height: 150px;
+        max-width: 100vw;
+        width: auto;
     }
     .model1 {
         padding-top: 150px;
