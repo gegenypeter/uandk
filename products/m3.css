@@ -39,7 +39,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     row-gap: 20px;
 }
 #menuContainer {
