@@ -210,7 +210,7 @@ hr {
     }
     .homeContainer {
         max-width: 800px;
-        height: 400px;
+        height: 420px;
     }
     #wrapper1 {
         display: flex;
@@ -234,7 +234,7 @@ hr {
         background-repeat: no-repeat;
         background-size: contain;
         margin-bottom: 20px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
     #wrapper3 {
         display: flex;
