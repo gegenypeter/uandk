@@ -247,3 +247,9 @@ hr {
 #contact h5 {
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 1300px) {
+    #categoryContainer {
+        row-gap: 50px;
+    }
+}
