@@ -329,6 +329,10 @@ hr {
     .eachFlex {
         width: 80%;
     }
+    .eachTech {
+        height: 250px;
+    }
+
     #h5 {
         text-align: center;
     }
@@ -348,6 +352,7 @@ hr {
     #secondDesc p {
         max-width: 80vw;
     }
+
     @media screen and (max-width: 700px) {
         #techFlex {
             flex-direction: column;
