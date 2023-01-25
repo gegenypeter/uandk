@@ -339,11 +339,13 @@ hr {
         text-align: center;
     }
     #imgContainer {
+        height: 700px;
         justify-content: center;
         margin: auto;
     }
     #imgContainer img {
         padding-top: 0;
+        height: 700px;
     }
     #titleContainer {
         width: 100%;
