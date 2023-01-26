@@ -19,7 +19,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-
+    <script src="../modal.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -143,7 +143,7 @@
       <div id="techFlex">
         <div class="eachTech">
           <div class="smallImgContainer">
-            <img class="smallImg" src="../img/foto-1-1.jpg" alt="" />
+            <img id="img1" class="smallImg" src="../img/foto-1-1.jpg" alt="" />
           </div>
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
@@ -178,7 +178,7 @@
         </div>
         <div class="eachTech">
           <div class="smallImgContainer">
-            <img class="smallImg" src="../img/foto-3-1.jpg" alt="" />
+            <img id="img2" class="smallImg" src="../img/foto-3-1.jpg" alt="" />
           </div>
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
@@ -213,7 +213,7 @@
         </div>
         <div class="eachTech">
           <div class="smallImgContainer">
-            <img class="smallImg" src="../img/web-green.jpg" alt="" />
+            <img id="img3" class="smallImg" src="../img/web-green.jpg" alt="" />
           </div>
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
@@ -248,7 +248,7 @@
         </div>
         <div class="eachTech">
           <div class="smallImgContainer">
-            <img class="smallImg2" src="../img/VTA-power-amp.jpg" alt="" />
+            <img id="img4" class="smallImg2" src="../img/VTA-power-amp.jpg" alt="" />
           </div>
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
@@ -282,6 +282,10 @@
           </div>
         </div>
       </div>
+    </div>
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
     </div>
     <hr />
     <section id="footerContainer">
