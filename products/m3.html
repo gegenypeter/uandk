@@ -20,8 +20,9 @@
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
     <script src="../modal.js"></script>
+    <script src="../slider.js"></script>
 
-    <title>Document</title>
+    <title>Uandksound.hu | M3-Sorozat</title>
   </head>
   <body>
     <div id="logo_title">
@@ -106,9 +107,18 @@
       </div>
       <div id="techFlex">
         <div class="eachTech">
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
           <div class="smallImgContainer">
             <img id="img1" class="smallImg" src="../img/2.jpg" alt="" />
           </div>
+          <div class="smallImgContainer">
+            <img id="img2" class="smallImg" src="../img/1.jpg" alt="" />
+          </div>
+          <div class="smallImgContainer">
+            <img id="img3" class="smallImg" src="../img/3.jpg" alt="" />
+          </div>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
             <p class="techRow">IMPEDANCIA</p>
@@ -131,9 +141,32 @@
           </div>
         </div>
         <div class="eachTech">
-          <div class="smallImgContainer">
-            <img id="img2" class="smallImg" src="../img/model-m320-copia.jpg" alt="" />
+          <a class="prev" onclick="plusSlides1(-1)">❮</a>
+          <div class="smallImgContainer1">
+            <img
+              id="img4"
+              class="smallImg"
+              src="../img/model-m320-copia.jpg"
+              alt=""
+            />
           </div>
+          <div class="smallImgContainer1">
+            <img
+              id="img5"
+              class="smallImg"
+              src="../img/IMG_9217.jpg"
+              alt=""
+            />
+          </div>
+          <div class="smallImgContainer1">
+            <img
+              id="img6"
+              class="smallImg"
+              src="../img/14.jpg"
+              alt=""
+            />
+          </div>
+          <a class="next" onclick="plusSlides1(1)">❯</a>
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
             <p class="techRow">IMPEDANCIA</p>
@@ -156,9 +189,14 @@
           </div>
         </div>
         <div class="eachTech">
-          <div class="smallImgContainer">
-            <img id="img3" class="smallImg" src="../img/5-1.jpg" alt="" />
+          <a class="prev" onclick="plusSlides2(-1)">❮</a>
+          <div class="smallImgContainer2">
+            <img id="img7" class="smallImg" src="../img/5-1.jpg" alt="" />
           </div>
+          <div class="smallImgContainer2">
+            <img id="img8" class="smallImg" src="../img/6.jpg" alt="" />
+          </div>
+          <a class="next" onclick="plusSlides2(1)">❯</a>
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
             <p class="techRow">IMPEDANCIA</p>
@@ -181,9 +219,32 @@
           </div>
         </div>
         <div class="eachTech">
-          <div class="smallImgContainer">
-            <img id="img4" class="smallImg" src="../img/7-2-copia-1.jpg" alt="" />
+          <a class="prev" onclick="plusSlides3(-1)">❮</a>
+          <div class="smallImgContainer3">
+            <img
+              id="img9"
+              class="smallImg"
+              src="../img/7-2-copia-1.jpg"
+              alt=""
+            />
           </div>
+          <div class="smallImgContainer3">
+            <img
+              id="img10"
+              class="smallImg"
+              src="../img/8-copia-1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="smallImgContainer3">
+            <img
+              id="img11"
+              class="smallImg"
+              src="../img/222-copia-copia-scaled.jpg"
+              alt=""
+            />
+          </div>
+          <a class="next" onclick="plusSlides3(1)">❯</a>
           <div class="techDescContainer1">
             <p class="techRow1">MODEL</p>
             <p class="techRow">IMPEDANCIA</p>
@@ -210,7 +271,7 @@
     </div>
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
-      <img class="modal-content" id="img01">
+      <img class="modal-content" id="img01" />
     </div>
     <hr />
     <section id="footerContainer">

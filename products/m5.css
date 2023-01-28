@@ -22,11 +22,12 @@ body {
 }
 #menu {
     height: 80px;
-    margin-top: 20px;
     margin: auto;
+    margin-top: 20px;
     padding-bottom: 10px;
     padding-top: 30px;
-    max-width: 1300px;
+    width: auto;
+    max-width: 100vw;
     position: sticky;
     overflow: hidden;
     z-index: 1;
@@ -38,7 +39,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     row-gap: 20px;
 }
 #menuContainer {
@@ -372,10 +373,6 @@ hr {
         margin-left: 50px;
         margin-right: 50px;
     }
-    #menu {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
     #descContainer {
         width: 100%;
     }
@@ -428,10 +425,6 @@ hr {
         #mainContainer {
             max-width: 80vw;
             margin-left: 20px;
-        }
-        #menu {
-            margin-right: 50px;
-            margin-left: 50px;
         }
         #descContainer {
             width: 100%;
