@@ -271,7 +271,8 @@ hr {
     font-size: 15px;
 }
 .smallImgContainer {
-    width: 250px;
+    width: 180px;
+    
     display: flex;
 }
 .smallImg {
